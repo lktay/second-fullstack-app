@@ -1,6 +1,0 @@
-async function animeListHandler(req, res) {
-  let animeData = await animeModel.find({});
-  res.send(animeData);
-}
-
-module.exports = animeListHandler;
